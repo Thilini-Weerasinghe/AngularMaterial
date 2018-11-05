@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Run the json backend server
+This is a project with json backend server.Therefore first of all you have to run the server using following command.
+json-server --watch src/data/db.json --port 4000
+
+Then it will open the server at port : 4000 and url is http://localhost:4000/characters
+
