@@ -20,4 +20,18 @@ export class TableComponent implements OnInit {
     }); 
   }
 
+  settings = {
+    columns: {
+      id: {
+        title: 'ID'
+      },
+      name: {
+        title: 'Name'
+      },
+      age: {
+        title: 'Age'
+      }
+    }
+  };
+
 }

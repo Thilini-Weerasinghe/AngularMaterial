@@ -1,4 +1,4 @@
-<table>
+<!--<table>
     <thead>
       <tr>
         <th>ID</th>
@@ -13,4 +13,9 @@
         <td>{{ characters.age }}</td>
       </tr>
     </tbody>
-</table>
+</table>-->
+
+<ng2-smart-table 
+    [settings]="settings" 
+    [source]="characters">
+</ng2-smart-table>
