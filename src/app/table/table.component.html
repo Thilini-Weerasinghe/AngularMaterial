@@ -1,3 +1,16 @@
-<p>
-  table works!
-</p>
+<table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let character of characters">
+        <td>{{ characters.id }}</td>
+        <td>{{ characters.name }}</td>
+        <td>{{ characters.age }}</td>
+      </tr>
+    </tbody>
+</table>
