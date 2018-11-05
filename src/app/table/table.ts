@@ -1,6 +1,6 @@
 
 export interface Table {
-    id: number;
-    name: string;
-    age: number;
+    id: Number;
+    name: String;
+    age: Number;
 }
